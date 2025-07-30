@@ -1,0 +1,152 @@
+
+* {
+    font-family:'Sarabun'
+
+}
+.nbox{
+background: #ffffff40;
+border: 2px solid rgb(255, 255, 255);
+backdrop-filter: blur(10px);
+height: auto;
+width :500px;
+border-radius: 20px;
+padding: 30px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 150px;
+display: grid;
+
+}
+
+
+.bbox{
+background: #ffffff40;
+border: 2px solid rgb(255, 255, 255);
+backdrop-filter: blur(10px);
+height: auto;
+width :500px;
+border-radius: 20px;
+display: flex;
+
+}
+
+.inbox{
+background: #ffffff;
+border: 2px solid rgb(255, 255, 255);
+backdrop-filter: blur(10px);
+height: auto;
+width :auto;
+border-radius: 20px;
+padding: 30px;
+margin:auto;
+
+}
+
+.buttoninbox{
+background: #ffffff;
+border: 2px solid rgb(255, 255, 255);
+backdrop-filter: blur(10px);
+height: 50px;
+width :250px;
+border-radius: 20px;
+
+margin:auto;
+display: flex;
+
+}
+
+.ntex{
+    color:white;
+    font-size: 25px;
+
+}
+
+.lesson-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.lesson-title:after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(to right, #EA69A8, #239BD7);
+    border-radius: 3px;
+}
+
+
+.ttbtn{
+    background:linear-gradient(to right, #EA69A8, #239BD7);
+    border: 2px solid rgb(255, 255, 255);
+    backdrop-filter: blur(10px);
+    height: 50px;
+    width :250px;
+    border-radius: 20px;
+
+    margin:auto;
+    display: flex;
+
+}
+
+
+a {
+  text-decoration: none; /* ลบขีดเส้นใต้ */
+  color: inherit;        /* สีข้อความเหมือนปกติ */
+}
+
+
+a div {
+  cursor: pointer;
+  padding: 10px;
+  background: #4cafef;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.3s ease; /* ทำให้ทุกการเปลี่ยนลื่นไหล */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* เงาเล็กๆ */
+}
+
+a div:hover {
+  background: #5fd2ff; /* สีสว่างขึ้นนิดนึง */
+  transform: translateY(-5px); /* ลอยขึ้น 5px */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* เงาลึกขึ้นตอนลอย */
+}
+
+
+
+button{
+  cursor: pointer;
+  padding: 10px;
+  background: #4cafef;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.3s ease; /* ทำให้ทุกการเปลี่ยนลื่นไหล */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* เงาเล็กๆ */
+}
+
+button:hover{
+  background: #5fd2ff; /* สีสว่างขึ้นนิดนึง */
+  transform: translateY(-5px); /* ลอยขึ้น 5px */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* เงาลึกขึ้นตอนลอย */
+}
+
+
+
+.content {
+  display: none;
+  padding: 10px;
+  border: 1px solid #333;
+  margin-top: 10px;
+}
+
+
+
+    
